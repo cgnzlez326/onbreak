@@ -1,0 +1,56 @@
+﻿<Window x:Class="OnBreak.AdministrarContrato"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnBreak"
+        mc:Ignorable="d"
+        Title="Administrar Contrato - OnBreak" Icon="img/white_logo_dark_background.jpg" Width="724.8" Height="615.2" Background="White" Closing="Window_Closing">
+    <Grid HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="570" Width="504">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtRut" HorizontalAlignment="Left" Height="23" Margin="189,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="txtNombreContacto" HorizontalAlignment="Left" Height="23" Margin="189,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" IsReadOnly="True"/>
+        <TextBox x:Name="txtNroContrato" HorizontalAlignment="Left" Height="23" Margin="189,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" IsReadOnly="True"/>
+        <TextBox x:Name="txtEvento" HorizontalAlignment="Left" Height="23" Margin="189,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+        <ComboBox x:Name="cboTipoEvento" DisplayMemberPath="DescripcionEvento" SelectedValuePath="Id" HorizontalAlignment="Left" Margin="189,124,0,0" VerticalAlignment="Top" Width="113" SelectionChanged="CboTipoEvento_SelectionChanged"/>
+        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Height="23" Margin="189,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="txtPrecioBase" HorizontalAlignment="Left" Height="23" Margin="189,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtCantAsist" HorizontalAlignment="Left" Height="23" Margin="189,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="txtCantPersonalAdd" HorizontalAlignment="Left" Height="23" Margin="189,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+        <TextBox x:Name="txtValorTotal" HorizontalAlignment="Left" Height="23" Margin="189,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" IsReadOnly="True" IsEnabled="False"/>
+        <DatePicker x:Name="dpInicioEvento" HorizontalAlignment="Left" Margin="189,375,0,0" VerticalAlignment="Top" Width="265"/>
+        <DatePicker x:Name="dpTerminoEvento" HorizontalAlignment="Left" Margin="189,406,0,0" VerticalAlignment="Top" Width="265"/>
+        <TextBox x:Name="txtObs" HorizontalAlignment="Left" Height="79" Margin="189,449,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265"/>
+        <Label Content="Rut" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Nombre Contacto" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Número Contrato" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Nombre Evento" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Tipo Evento" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Dirección" HorizontalAlignment="Left" Margin="10,186,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Precio base" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Cantidad Asistentes" HorizontalAlignment="Left" Margin="10,282,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Cant. Personal adicional" HorizontalAlignment="Left" Margin="10,313,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Valor total" HorizontalAlignment="Left" Margin="10,344,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Inicio evento" HorizontalAlignment="Left" Margin="10,375,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Término evento" HorizontalAlignment="Left" Margin="10,406,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Label Content="Observaciones" HorizontalAlignment="Left" Margin="10,449,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Button x:Name="btnBuscarRut" Content="Buscar" HorizontalAlignment="Left" Margin="307,0,0,0" VerticalAlignment="Top" Width="75" Height="26" FontSize="8" Click="BtnBuscarRut_Click"/>
+        <Button x:Name="btnBuscarContrato" Content="Buscar" HorizontalAlignment="Left" Margin="307,62,0,0" VerticalAlignment="Top" Width="75" Height="26" FontSize="8" Click="BtnBuscarContrato_Click"/>
+        <Button x:Name="btnCalcular" Content="Calcular" HorizontalAlignment="Left" Margin="307,344,0,0" VerticalAlignment="Top" Width="75" Height="26" FontSize="8" Click="BtnCalcular_Click"/>
+        <Button x:Name="btnClear" Content="Limpiar" HorizontalAlignment="Left" Margin="189,534,0,0" VerticalAlignment="Top" Width="75" Height="26" FontSize="8" Click="BtnClear_Click"/>
+        <Button x:Name="btnTerminar" Content="Terminar" HorizontalAlignment="Left" Margin="299,534,0,0" VerticalAlignment="Top" Width="75" Height="26" FontSize="8" IsEnabled="False" Click="BtnTerminar_Click"/>
+        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="379,534,0,0" VerticalAlignment="Top" Width="75" Height="26" FontSize="8" Background="Black" Click="BtnGuardar_Click"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="593,534,-164,0" VerticalAlignment="Top" Width="75" Height="26" FontSize="8" Background="Black" Click="BtnSalir_Click"/>
+        <Image HorizontalAlignment="Left" Height="132" Margin="539,145,-164,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.47,0.545" Source="img/dark_logo_white_background.jpg"/>
+        <Label Content="Personal base" HorizontalAlignment="Left" Margin="10,251,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <TextBox x:Name="txtPersonalBase" HorizontalAlignment="Left" Height="23" Margin="189,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" IsReadOnly="True" IsEnabled="False"/>
+        <ComboBox x:Name="cboModalidadEvento" DisplayMemberPath="NombreModalidad" SelectedValuePath="Id" HorizontalAlignment="Left" Margin="189,155,0,0" VerticalAlignment="Top" Width="113" IsEnabled="False" IsEnabledChanged="CboModalidadEvento_IsEnabledChanged" SelectionChanged="CboModalidadEvento_SelectionChanged"/>
+        <Label Content="Modalidad Evento" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" Height="26" Background="White" Foreground="Black" Width="145"/>
+        <Button x:Name="btnRecuperar" Content="Recuperar" HorizontalAlignment="Left" Margin="494,0,-65,542" VerticalAlignment="Bottom" Width="75" Height="26" FontSize="8" Click="BtnRecuperar_Click"/>
+        <Label x:Name="lblUltimo" Content="Ult. Respaldo: " HorizontalAlignment="Left" Margin="494,33,-75,0" VerticalAlignment="Top" Foreground="Black"/>
+        <Label x:Name="lblRespaldo" Content="" HorizontalAlignment="Left" Margin="584,33,-184,0" VerticalAlignment="Top" Width="104" Foreground="Black"/>
+    </Grid>
+</Window>

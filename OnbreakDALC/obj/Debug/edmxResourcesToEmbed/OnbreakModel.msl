@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnbreakDBModelStoreContainer" CdmEntityContainer="OnbreakDBEntities">
+    <EntitySetMapping Name="ACTIVIDADEMPRESAS">
+      <EntityTypeMapping TypeName="OnbreakDBModel.ACTIVIDADEMPRESAS">
+        <MappingFragment StoreEntitySet="ACTIVIDADEMPRESAS">
+          <ScalarProperty Name="IdActividadEmpresa" ColumnName="IdActividadEmpresa" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTES">
+      <EntityTypeMapping TypeName="OnbreakDBModel.CLIENTES">
+        <MappingFragment StoreEntitySet="CLIENTES">
+          <ScalarProperty Name="RutCliente" ColumnName="RutCliente" />
+          <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+          <ScalarProperty Name="NombreContacto" ColumnName="NombreContacto" />
+          <ScalarProperty Name="MailContacto" ColumnName="MailContacto" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="IdActividadEmpresa" ColumnName="IdActividadEmpresa" />
+          <ScalarProperty Name="IdTipoEmpresa" ColumnName="IdTipoEmpresa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CONTRATOS">
+      <EntityTypeMapping TypeName="OnbreakDBModel.CONTRATOS">
+        <MappingFragment StoreEntitySet="CONTRATOS">
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="NombreEvento" ColumnName="NombreEvento" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Creacion" ColumnName="Creacion" />
+          <ScalarProperty Name="Termino" ColumnName="Termino" />
+          <ScalarProperty Name="RutCliente" ColumnName="RutCliente" />
+          <ScalarProperty Name="IdModalidad" ColumnName="IdModalidad" />
+          <ScalarProperty Name="FechaHoraInicio" ColumnName="FechaHoraInicio" />
+          <ScalarProperty Name="FechaHoraTermino" ColumnName="FechaHoraTermino" />
+          <ScalarProperty Name="Asistentes" ColumnName="Asistentes" />
+          <ScalarProperty Name="PersonalAdicional" ColumnName="PersonalAdicional" />
+          <ScalarProperty Name="Realizado" ColumnName="Realizado" />
+          <ScalarProperty Name="PrecioBase" ColumnName="PrecioBase" />
+          <ScalarProperty Name="ValorTotalContrato" ColumnName="ValorTotalContrato" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MODALIDADSERVICIOS">
+      <EntityTypeMapping TypeName="OnbreakDBModel.MODALIDADSERVICIOS">
+        <MappingFragment StoreEntitySet="MODALIDADSERVICIOS">
+          <ScalarProperty Name="IdModalidad" ColumnName="IdModalidad" />
+          <ScalarProperty Name="IdTipoEvento" ColumnName="IdTipoEvento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ValorBase" ColumnName="ValorBase" />
+          <ScalarProperty Name="PersonalBase" ColumnName="PersonalBase" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPOEMPRESAS">
+      <EntityTypeMapping TypeName="OnbreakDBModel.TIPOEMPRESAS">
+        <MappingFragment StoreEntitySet="TIPOEMPRESAS">
+          <ScalarProperty Name="IdTipoEmpresa" ColumnName="IdTipoEmpresa" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPOEVENTOS">
+      <EntityTypeMapping TypeName="OnbreakDBModel.TIPOEVENTOS">
+        <MappingFragment StoreEntitySet="TIPOEVENTOS">
+          <ScalarProperty Name="IdTipoEvento" ColumnName="IdTipoEvento" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

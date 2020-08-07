@@ -1,0 +1,55 @@
+c:\Users\duoc\documents\visual studio 2015\Projects\OnBreak\OnBreakLibrary\bin\Debug\OnBreakLibrary.dll
+c:\Users\duoc\documents\visual studio 2015\Projects\OnBreak\OnBreakLibrary\bin\Debug\OnBreakLibrary.pdb
+c:\Users\duoc\documents\visual studio 2015\Projects\OnBreak\OnBreakLibrary\obj\Debug\OnBreakLibrary.csprojResolveAssemblyReference.cache
+c:\Users\duoc\documents\visual studio 2015\Projects\OnBreak\OnBreakLibrary\obj\Debug\OnBreakLibrary.dll
+c:\Users\duoc\documents\visual studio 2015\Projects\OnBreak\OnBreakLibrary\obj\Debug\OnBreakLibrary.pdb
+C:\Users\duoc\Desktop\OnBreak\OnBreakLibrary\bin\Debug\OnBreakLibrary.dll
+C:\Users\duoc\Desktop\OnBreak\OnBreakLibrary\bin\Debug\OnBreakLibrary.pdb
+C:\Users\duoc\Desktop\OnBreak\OnBreakLibrary\obj\Debug\OnBreakLibrary.csprojResolveAssemblyReference.cache
+C:\Users\duoc\Desktop\OnBreak\OnBreakLibrary\obj\Debug\OnBreakLibrary.dll
+C:\Users\duoc\Desktop\OnBreak\OnBreakLibrary\obj\Debug\OnBreakLibrary.pdb
+C:\Users\user\Desktop\OnBreak2\OnBreakLibrary\bin\Debug\OnBreakLibrary.dll
+C:\Users\user\Desktop\OnBreak2\OnBreakLibrary\bin\Debug\OnBreakLibrary.pdb
+C:\Users\user\Desktop\OnBreak2\OnBreakLibrary\obj\Debug\OnBreakLibrary.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\OnBreak2\OnBreakLibrary\obj\Debug\OnBreakLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\OnBreak2\OnBreakLibrary\obj\Debug\OnBreakLibrary.dll
+C:\Users\user\Desktop\OnBreak2\OnBreakLibrary\obj\Debug\OnBreakLibrary.pdb
+C:\Users\Duoc\Desktop\OnBreakOficial\OnBreakLibrary\bin\Debug\OnBreakLibrary.dll
+C:\Users\Duoc\Desktop\OnBreakOficial\OnBreakLibrary\bin\Debug\OnBreakLibrary.pdb
+C:\Users\Duoc\Desktop\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Duoc\Desktop\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.dll
+C:\Users\Duoc\Desktop\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.pdb
+C:\Users\barri\OneDrive\Escritorio\OnBreakOficial\OnBreakLibrary\bin\Debug\OnBreakLibrary.dll
+C:\Users\barri\OneDrive\Escritorio\OnBreakOficial\OnBreakLibrary\bin\Debug\OnBreakLibrary.pdb
+C:\Users\barri\OneDrive\Escritorio\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csprojAssemblyReference.cache
+C:\Users\barri\OneDrive\Escritorio\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csproj.CoreCompileInputs.cache
+C:\Users\barri\OneDrive\Escritorio\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.dll
+C:\Users\barri\OneDrive\Escritorio\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.pdb
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDB.mdf
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDB_log.ldf
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnBreakLibrary.dll
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnBreakLibrary.pdb
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\EntityFramework.dll
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDALC.dll
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDALC.pdb
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDALC.dll.config
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\EntityFramework.xml
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csprojAssemblyReference.cache
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csproj.CoreCompileInputs.cache
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csproj.CopyComplete
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.dll
+C:\Users\waref\Desktop\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.pdb
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDB.mdf
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDB_log.ldf
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnBreakLibrary.dll
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnBreakLibrary.pdb
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\EntityFramework.dll
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDALC.dll
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDALC.pdb
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\OnbreakDALC.dll.config
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\bin\Debug\EntityFramework.xml
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csprojAssemblyReference.cache
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csproj.CoreCompileInputs.cache
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.csproj.CopyComplete
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.dll
+C:\Users\waref\Desktop\weas2\OnBreakOficial\OnBreakOficial\OnBreakLibrary\obj\Debug\OnBreakLibrary.pdb
