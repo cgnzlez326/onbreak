@@ -318,7 +318,6 @@ namespace OnBreak
                         MessageBox.Show("Cliente modificado con éxito");
                         NotificationCenter.Notify("client_changed");
                         btnLimpiar_Click(new object(), new RoutedEventArgs());
-                        btnLimpiar_Click(new object(), new RoutedEventArgs());
                     }
                 }
             }
@@ -375,7 +374,6 @@ namespace OnBreak
         {
             int suma = 0;
             int multiplicador = 1;
-            int sds;
             while (rut != 0)
             {
                 multiplicador++;
